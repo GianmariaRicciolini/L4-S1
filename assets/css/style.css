@@ -6,6 +6,7 @@ body {
   padding: 15px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
+  box-sizing: border-box;
 }
 
 /* HEADER */
@@ -14,12 +15,13 @@ body {
   background-color: #0088a9;
   color: #ffffff;
   text-align: center;
-  margin: 8px;
+
   border-radius: 8px;
   border-style: hidden;
   padding: 2em 1.5em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 2em;
 }
 .title div {
   margin-bottom: 8px;
@@ -32,9 +34,25 @@ body {
 /* MAIN */
 main {
   background-color: #ffffff;
-  margin: 8px;
+  margin-bottom: 2em;
   border-radius: 8px;
   border-style: hidden;
+  padding: 2em 1.5em;
+}
+
+main h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main p {
+  margin-bottom: 10px;
+}
+
+.credits {
+  margin-bottom: 10px;
+  color: #aba7ab;
 }
 
 .tag {
@@ -45,6 +63,15 @@ main {
   border-radius: 2px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
+.list {
+  padding: 1em;
+  padding-top: 0;
+}
+
+.violet {
+  color: #aa2072;
+  font-weight: bold;
+}
 
 /* TABELLE */
 table {
@@ -74,4 +101,6 @@ footer {
   color: #ffffff;
   border-radius: 8px;
   border-style: hidden;
+  padding: 2em 1.5em;
+  text-align: center;
 }
